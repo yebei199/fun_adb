@@ -1,5 +1,10 @@
-# py-template
-it is my python template, anyone can use it as a template
+
+first install the apk in your phone
+[APK download](https://github.com/senzhk/ADBKeyBoard/blob/master/ADBKeyboard.apk)
+
+[Repo](https://github.com/senzhk/ADBKeyBoard)
+
+---
 
 # start
 ```bash
