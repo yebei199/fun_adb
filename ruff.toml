@@ -6,6 +6,7 @@ include = ["*.py", "*.toml"]
 output-format = "grouped"
 
 [lint]
+preview = true
 select = [
     "E", "W", "N", "PD", "F", "UP", "B", "SIM", "PL", "C90", "I",
 ]
@@ -13,7 +14,7 @@ ignore = ["E501", "E203", "E301", "PLR0913"]
 extend-safe-fixes = ["F601", "I001", "PD002", "N804", "N805", "W293", "W291"]
 extend-unsafe-fixes = ["UP034", ]
 
-[mccabe]
+[lint.mccabe]
 max-complexity = 10
 
 
